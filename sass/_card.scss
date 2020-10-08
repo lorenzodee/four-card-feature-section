@@ -1,14 +1,14 @@
 .card {
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 8px 16px -8px rgba(218,228,240,1);
+  box-shadow: 0 8px 16px -8px hsl(229, 6%, 66%);
   padding: 30px;
   margin: 0;
   border-top: 4px solid #ccc;
 
   &__title {
     display: block;
-    color: #4c4c4c;
+    color: hsl(234, 12%, 34%);
     margin: 0 0 0.5em 0;
   }
 
@@ -25,19 +25,19 @@
   }
 
   &--cyan {
-    border-top-color: #46d2d1;
+    border-top-color: hsl(180, 62%, 55%);
   }
 
   &--red {
-    border-top-color: #d0605e;
+    border-top-color: hsl(0, 78%, 62%);
   }
 
-  &--yellow {
-  	border-top-color: #fcae4a;
+  &--orange {
+  	border-top-color: hsl(34, 97%, 64%);
   }
 
   &--blue {
-    border-top-color: #529ef2;
+    border-top-color: hsl(212, 86%, 64%);
   }
 }
 

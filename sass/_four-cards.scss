@@ -3,9 +3,6 @@
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 1fr;
   gap: 25px;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
 
   &__1 {
     grid-row: 1;
